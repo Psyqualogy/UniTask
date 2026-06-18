@@ -1032,6 +1032,8 @@ public class SyncContextInjecter
 }
 
 
+namespace UniTaskSandbox
+{
 public class PlayerLoopInfo
 {
     // [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
@@ -1105,4 +1107,5 @@ public class PlayerLoopInfo
             CurrentLoopType = type;
         }
     }
+}
 }
